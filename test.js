@@ -1,5 +1,5 @@
 const test = require('tape')
-const cities = require('./')
+const cities = require('.')
 
 test('all-the-cities', function (t) {
   t.plan(6)

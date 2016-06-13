@@ -1,4 +1,4 @@
-const cities = require('./')
+const cities = require('.')
 
 cities.filter(city => {
   return city.name.match('Albuquerque')
