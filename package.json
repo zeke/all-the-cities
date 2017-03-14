@@ -1,6 +1,6 @@
 {
   "name": "all-the-cities",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "All the 138,398 cities of the world with a population of at least 1000 inhabitants, in a big JSON array",
   "main": "index.js",
   "scripts": {
