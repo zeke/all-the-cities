@@ -7,10 +7,6 @@ cities.filter(city => {
 // [{
 //   name: 'Albuquerque',
 //   country: 'US',
-//   altCountry: '',
-//   muni: '',
-//   muniSub: '',
-//   featureClass: 'P',
 //   featureCode: 'PPLA2',
 //   adminCode: 'NM',
 //   population: 545852,
@@ -19,10 +15,6 @@ cities.filter(city => {
 // }, {
 //   name: 'Los Ranchos de Albuquerque',
 //   country: 'US',
-//   altCountry: '',
-//   muni: '',
-//   muniSub: '',
-//   featureClass: 'P',
 //   featureCode: 'PPL',
 //   adminCode: 'NM',
 //   population: 6024,
