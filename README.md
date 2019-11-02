@@ -9,13 +9,13 @@ Derived from the [cities-with-1000](https://www.npmjs.com/package/cities-with-10
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install all-the-cities-mongodb --save
+npm install all-the-cities --save
 ```
 
 ## Usage
 
 ```js
-const cities = require("all-the-cities-mongodb")
+const cities = require("all-the-cities")
 
 cities.filter(city => {
   return city.name.match('Albuquerque')
