@@ -1,11 +1,11 @@
 {
   "name": "all-the-cities",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "All the 138,398 cities of the world with a population of at least 1000 inhabitants, in a big JSON array",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "build": "node build.js > cities.json"
+    "build": "node build.js > cities.pbf"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
     "gis",
     "world",
     "geography",
-    "location"
+    "location",
+    "mongodb",
+    "geoSpatialSearch"
   ],
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
   "license": "MIT",
@@ -29,12 +31,12 @@
   },
   "homepage": "https://github.com/zeke/all-the-cities#readme",
   "devDependencies": {
-    "cities1000": "0.0.0",
+    "cities-with-1000": "^1.0.1",
     "split2": "^2.0.1",
-    "tape": "^4.5.1",
-    "through2": "^2.0.1"
+    "tape": "^4.11.0",
+    "through2": "^2.0.5"
   },
   "dependencies": {
-    "pbf": "^3.0.5"
+    "pbf": "^3.2.1"
   }
 }
