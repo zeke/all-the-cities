@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/zeke/all-the-cities#readme",
   "devDependencies": {
-    "cities-with-1000": "^1.0.1",
+    "cities-with-1000": "^1.0.4",
     "split2": "^2.0.1",
     "tape": "^4.11.0",
     "through2": "^2.0.5"
